@@ -16,7 +16,7 @@ import Footer from './components/Footer';
 function App() {
   useEffect(() => {
     // Update page title
-    document.title = 'Lumina Studio | Professional Photography';
+    document.title = 'Prasanna Photography';
     
     // Change favicon (optional)
     const link = document.querySelector("link[rel='icon']") as HTMLLinkElement;

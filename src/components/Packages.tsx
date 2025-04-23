@@ -7,7 +7,7 @@ AOS.init();
 const packages = [
   {
     name: 'SILVER',
-    price: '$699',
+    price: '₹699',
     description: 'Perfect for individuals and small events requiring professional quality photography.',
     features: [
       'Groom formalities',
@@ -25,7 +25,7 @@ const packages = [
   },
   {
     name: 'GOLD',
-    price: '$1,299',
+    price: '₹1,299',
     description: 'Our most popular package for weddings and significant events with comprehensive coverage.',
     features: [
       '8-hour photo session',
@@ -41,7 +41,7 @@ const packages = [
   },
   {
     name: 'PLATINUM',
-    price: '$2,499',
+    price: '₹2,499',
     description: 'The ultimate photography experience with premium products and unlimited coverage.',
     features: [
       'Full day coverage (up to 12 hours)',

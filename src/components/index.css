@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -85,8 +87,9 @@
   
 
   .nv{
-    padding-top: 40px !important;
-    padding-bottom: 40px !important;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    padding: 30px !important;
   }
   .cd{
     display: flex;
@@ -148,5 +151,24 @@ body {
     body {
       scrollbar-color: var(--sb-thumb-color)
                        var(--sb-track-color);
+    }
+  }
+
+
+
+  @media(max-width: 640px) {
+    .nv{
+      padding-top: 23px !important;
+      padding-bottom: 23px !important;
+    }
+
+    .bb{
+      width: 57% !important;
+    }
+    .fl{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
     }
   }
